@@ -2,21 +2,3 @@ people = [ 'Lebron','Aaliyah','Diamond','Dominique','Aliyah','Jazmin','Darnell',
 
 #Your code here:
 
-def find_wally(list_to_search, item_to_find):
-    indices = []
-    for idx, value in enumerate(people):
-        if value == item_to_find:
-            indices.append(idx)
-        else:
-            continue
-    
-    print(indices[0])
-    print(indices[1])
-
-find_wally(people, 'Wally')
-
-    
-
-
-
-
