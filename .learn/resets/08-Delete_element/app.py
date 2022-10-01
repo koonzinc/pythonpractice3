@@ -2,13 +2,7 @@ people = ['juan','ana','michelle','daniella','stefany','lucy','barak']
 
 #Your code go here:
 def deletePerson(person_name):
-    new_list = []
-    for x in people:
-        if x == person_name:
-            pass
-        else:
-            new_list.append(x)
-    return new_list
+    #Your code go here:
     
 print(deletePerson("daniella"))
 print(deletePerson("juan"))
