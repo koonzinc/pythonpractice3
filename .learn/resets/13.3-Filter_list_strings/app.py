@@ -7,9 +7,3 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
-def filter_names(name):
-    if 'am' in name:
-        return name
-
-final_names = list(filter(filter_names, names))
-print(final_names)
