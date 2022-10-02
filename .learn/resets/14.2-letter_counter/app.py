@@ -2,11 +2,6 @@ par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget bib
 
 counts = {}
 #your code go here:
-for i in par:
-    if i == ' ':
-        pass
-    else:
-        counts[i] = par.count(i)
 
 print(counts)
 
